@@ -15,3 +15,5 @@ results/
 *.deb
 *.adoc
 ms_linux.zip
+ms_mac.zip
+modelspace/

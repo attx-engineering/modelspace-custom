@@ -42,10 +42,16 @@ Finally, compile ModelSpace. This should run in approx. 1 minute and produce no 
 make -j20
 ```
 
-Finally, run the unit tests to ensure everything is working and passing. 100% of tests should always pass
+Run the unit tests to ensure everything is working and passing. 100% of tests should always pass
 
 ```
 make test
+```
+
+Running the GUI with custom models involves telling the GUI where the custom models live when running:
+
+```
+ms-gui --custom-model-file=custom_models.json
 ```
 
 By default, ModelSpace compiles into SWIG-wrapped Python in addition to c++. Python scripts are held at `python/scripts/` and should work out of the box. Try running a few to verify this.
