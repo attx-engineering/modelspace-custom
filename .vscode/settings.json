@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.env.linux": {"PYTHONPATH":"${workspaceFolder}/build:${workspaceFolder}/python:${workspaceFolder}"},
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/build",
+        "${workspaceFolder}/python",
+        "${workspaceFolder}"
+    ],
+    "files.autoSave": "onFocusChange",
+}
